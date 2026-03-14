@@ -40,6 +40,7 @@ android {
 }
 
 dependencies {
+    implementation("com.google.android.gms:play-services-location:21.3.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -55,4 +56,10 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    implementation("com.google.android.gms:play-services-maps:20.0.0")
+    implementation("com.google.maps.android:maps-compose:8.1.0")
+    implementation("com.google.maps.android:maps-compose-utils:8.1.0")
+    implementation("com.google.maps.android:maps-compose-widgets:8.1.0")
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.lifecycle:lifecycle-service:2.10.0")
 }

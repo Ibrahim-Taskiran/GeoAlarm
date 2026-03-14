@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "596420740117",
+    "project_id": "geoalarm-f7142",
+    "storage_bucket": "geoalarm-f7142.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596420740117:android:d020b4a380414e0da63a1c",
+        "android_client_info": {
+          "package_name": "com.ibrahim.geoalarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTAdE2CTVCxCg4T1VUSirwoIbNDdaoxQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
